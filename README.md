@@ -1,5 +1,6 @@
-キーボードの矢印左右キーを試したもの
-参考
+キーボードの矢印左右キーを試したもの。\
+Clone後npm install, npm startが必要。\
+参考\
 https://qiita.com/FumioNonaka/items/f85b8dbc137d64baa616
 
 # Getting Started with Create React App
