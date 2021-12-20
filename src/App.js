@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import CounterDisplay from './CounterDisplay';
 import { useKey } from 'react-use';
+import Page1 from './Page1';
+import Page2 from './Page2';
 
 const initialCount = 0;
 function App() {
@@ -11,7 +12,7 @@ function App() {
   useKey('ArrowUp', increment);
   return (
     <div className="App">
-      <CounterDisplay counter={{ count, decrement, increment }} />
+      <Page2 counter={{ count, decrement, increment }} />
     </div>
   );
 }
